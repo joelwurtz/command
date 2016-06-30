@@ -1,0 +1,25 @@
+{
+    "name": "jolicode/command",
+    "description": "Command Abstraction",
+    "type": "library",
+    "require": {
+        "docker-php/docker-php": "^1.23",
+        "symfony/options-resolver": "^3.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Wurtz",
+            "email": "joel.wurtz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Joli\\Command\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
